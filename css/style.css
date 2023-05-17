@@ -1,0 +1,280 @@
+@media screen and (min-width: 1500px) and (max-width: 2000px){
+
+    body{
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+        background-color: rgb(242, 232, 182);
+    }
+
+    .navbar{
+        width: 1530px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(105, 0, 79);
+    }
+
+    .Contenedor-titulo-nav{
+        padding: 5px;
+        color: azure;
+        width: 180px;
+        height: 90px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+
+    .contactos{
+        color: azure;
+        background-color: rgba(255, 255, 255, 0.097);
+        width: 180px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    main{
+        display: flex;    
+        justify-content:space-evenly;
+        flex-direction: row;
+    }
+
+    .contenido-main{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+    }
+
+    .contenido-1{
+        margin: 10px;
+        padding: 10px;
+        width: 50%;
+        background-color: rgba(155, 0, 103, 0.395);
+    }
+
+    .titulo-contenido-1
+    {
+        text-align: center;
+    }
+
+    .contenedor-form{
+        margin: 5px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: brown;
+        width: 415px;
+        height: 720px;
+        color: azure;
+        font-weight: 600;
+    }
+
+    .titulo-form{
+        text-align: center;
+        color: azure;
+        font-weight: 600;
+    }
+
+    .contenedor-form-1{
+        margin: 10px;
+        display: flex;
+        width: 400px;
+        justify-content:space-around;
+        color: azure;
+        font-weight: 600;
+    }
+
+    .input-text-1{
+        margin: 5px;
+        padding: 0;
+        width: 190px;
+        height: 25px;
+        border-radius: 10px;
+    }
+
+    .input-text-2{
+        margin: 5px;
+        width: 96%;
+        height: 25px;
+    }
+
+    .contenedor-form-2{
+        margin: 5px;
+        display: flex;
+        margin: auto;
+        color: azure;
+        font-weight: 600;
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mensaje{
+        width: 380px;
+        height: 5cm;
+    }
+
+    .nav-footer{
+        display: flex;
+        font-size: medium;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        border-radius: 20px;
+        color: rgb(245, 248, 244);
+        background-color: rgba(255, 255, 255, 0.097);
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        display: flex;
+        font-size: 19px;
+        padding: 20px;
+        color: white;
+        background-color: rgb(105, 0, 79);
+        justify-content:space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    body{
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+        background-color: rgb(242, 232, 182);
+    }
+
+    .navbar{
+        width: 768px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(105, 0, 79);
+    }
+    
+    .contactos{
+        color: azure;
+        background-color: rgba(255, 255, 255, 0.097);
+        width: 120px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    main{
+        display: flex;    
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenido-main{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+    }
+    
+    .contenido-1{
+        margin: 10px;
+        padding: 10px;
+        width: 50%;
+        background-color: rgba(155, 0, 103, 0.395);
+    }
+    
+    .titulo-contenido-1
+    {
+        text-align: center;
+    }
+    
+    .contenedor-form{
+        margin: 5px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: brown;
+        width: 415px;
+        height: 670px;
+        color: azure;
+        font-weight: 600;
+    }
+    
+    .titulo-form{
+        text-align: center;
+        color: azure;
+        font-weight: 600;
+    }
+    
+    .contenedor-form-1{
+        margin: 10px;
+        display: flex;
+        padding: 0;
+        width: 400px;
+        justify-content:space-around;
+        color: azure;
+        font-weight: 600;
+    }
+    
+    .input-text-1{
+        margin: 5px;
+        padding: 0;
+        width: 190px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    
+    .input-text-2{
+        margin: 5px;
+        width: 96%;
+        height: 25px;
+    }
+    
+    .contenedor-form-2{
+        margin: 5px;
+        display: flex;
+        margin: auto;
+        color: azure;
+        font-weight: 600;
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mensaje{
+        width: 380px;
+        height: 3.5cm;
+    }
+    
+    .nav-footer{
+        display: flex;
+        font-size: medium;
+        height: auto;
+        width: auto;
+        padding: auto;
+        border-radius: 20px;
+        color: rgb(245, 248, 244);
+        background-color: rgba(255, 255, 255, 0.097);
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    footer{
+        display: flex;
+        font-size: 19px;
+        padding: 20px;
+        color: white;
+        background-color: rgb(105, 0, 79);
+        justify-content:space-between;
+        align-items: center;
+    }
+}
